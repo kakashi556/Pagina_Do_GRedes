@@ -96,13 +96,3 @@ body {
     background-color: #0199cc;
     height: 100%;
   }
-
-  .container {
-    width: 30%;
-    display: inline-block;
-  }
-
-  .nav-site {
-    color: white;
-    text-align:center;
-  }
