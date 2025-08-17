@@ -93,6 +93,7 @@ body {
     opacity: 0.9;
   }
   .imagem-container {
-    background-color: #0199cc;
+    background-color: #0199cc
+    height: 100%;
   }
 
