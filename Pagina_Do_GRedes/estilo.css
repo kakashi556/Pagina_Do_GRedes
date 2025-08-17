@@ -95,4 +95,5 @@ body {
   .imagem-container {
     background-color: #0199cc;
     height: 100%;
+    display: inline-block;
   }
