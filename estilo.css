@@ -4,8 +4,6 @@ body {
     font-family: system-ui, -apple-system, Segoe UI, Roboto, 'Helvetica Neue', Arial;
     line-height: 1.5;
     color: #111;
- 
-    
   }
   
   /* Cabeçalho */
@@ -64,7 +62,8 @@ body {
   footer {
     background: #2a6fba;
     color: #ffffff;
-    padding: 50px 20px;
+    padding: 5%;
+    margin: 0px;
     background-image: url('gettyimages-1173257070-612x612.jpg');
     background-repeat: no-repeat;
     background-size: 100% 100%;
@@ -76,7 +75,6 @@ body {
     display: flex;
     flex-direction: column;
     gap: 8px;
-    
   }
   
   .footer-title {
@@ -94,6 +92,48 @@ body {
   }
 
   .imagem-container {
-    background-color: #0199cc;
-    height: 100%;
+    width: 30%;
+    display:inline-block;
+  }
+
+  /* Menu de navegação */
+ .container {
+    max-width: 1500px;
+    padding: 0%;
+}
+
+  nav {
+      display:flex;
+      align-items: center;
+      background-color: #0199cc;
+      border: 2px #0199cc;
+      border-radius: 20px;
+      padding: 15px;
+      width: 140%;
+  }
+
+  nav ul {
+      list-style:none;
+  }
+
+  nav ul li{
+      display: inline-block;
+  }
+
+  nav ul li a {
+      padding: 30px 120px;
+      text-decoration: none;
+      font-size: 30px;
+      color: white;
+      border-radius: 30px;
+      transition: 0.6s;
+  }
+
+  nav ul li a:hover {
+      background-color: cyan;
+  }
+
+  nav .logo {
+    display: inline-block;
+
   }
